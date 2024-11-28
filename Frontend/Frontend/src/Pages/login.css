@@ -1,0 +1,90 @@
+/* login.css */
+.outer {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    /* Add more styles for the outer container */
+  }
+  
+  .first-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-data {
+    width: 40%;
+    padding: 30px; /* Increased padding for more spacing */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* height: 450px; Increased height for more space */
+    /* Add styles for the login form container */
+  }
+  
+  .continue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .continue h2 {
+    /* text-align: center; */
+    margin-bottom: 20px; 
+    margin-top: 25px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    /* Add styles for the form */
+  }
+  
+  input {
+    padding: 15px; /* Increased padding for more spacing */
+    margin-bottom: 20px; /* Increased margin for more spacing */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    /* Add styles for the input fields */
+  }
+  
+  /* .login-data div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+  } */
+  .reg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+    /* Add styles for the link */
+  }
+  button {
+    padding: 15px 30px; /* Increased padding for more spacing */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    /* Add styles for the button */
+  }
+  .first-div img{
+    height: 470px;
+  }

@@ -1,0 +1,30 @@
+.doctor-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .doctor-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .doctor-image img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .status.available {
+    color: green;
+  }
+  
+  .status.unavailable {
+    color: red;
+  }

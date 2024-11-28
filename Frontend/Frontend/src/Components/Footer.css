@@ -1,0 +1,116 @@
+/* General Styles */
+
+.footer {
+    background-color: #ebebeb; /* Light green background color */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px 0; /* Reduced padding for smaller height */
+    font-family: Arial, sans-serif;
+    max-width: 100%; /* Full-width footer */
+    margin: 0 auto; /* Center the content horizontally */
+    border-top: 2px solid #ffffff; /* Optional: subtle border at the top */
+}
+
+.footer hr {
+    border: none;
+    border-top: 1px solid #dddddd; /* Subtle divider line */
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap; /* Ensure responsiveness */
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    gap: 15px;
+    padding: 0 15px; /* Reduced horizontal padding */
+}
+
+/* Logo Section */
+.logoimg {
+ width: 100px; /* Reduced logo size */
+    height: 100px; /* Maintain aspect ratio */
+    align-self: flex-start; /* Align logo to the top */
+    margin-left: 0; /* Ensure logo is flush with the left edge */
+}
+
+/* Quick Links Section */
+.content h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #000000; /* White heading color */
+}
+
+.content ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    margin-right: 10rem;
+}
+
+.content ul a {
+    display: block;
+    text-decoration: none; /* Remove underline */
+    color: #414141; /* Muted link color */
+    margin-bottom: 5px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.content ul a:hover {
+    color: #32915a; /* Highlight on hover */
+}
+
+/* Hours Section */
+.content ul li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px; /* Slightly smaller font */
+    margin-bottom: 5px;
+    color: #414141; /* Subtle text color */
+}
+
+/* Contact Section */
+.content div {
+    margin-bottom: 8px;
+}
+
+.content div span {
+    margin-left: 8px;
+    font-size: 13px; /* Reduced font size for compactness */
+    color: #414141
+}
+
+.content svg {
+    vertical-align: middle;
+    color: #000000; /* White icon color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: flex-start; /* Align sections to the left */
+    }
+
+    .content div {
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .logoimg {
+        width: 80px; /* Smaller logo for narrow screens */
+    }
+
+    .content h4 {
+        font-size: 14px;
+    }
+
+    .content ul li {
+        font-size: 12px;
+    }
+
+    .content div span {
+        font-size: 12px;
+    }
+}
